@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function string(){
+            let a="hello world"
+            let len=a.length;
+            // document.write(len);
+            for(let i=0;i<len;i++){
+                if(a[i]=="a"|| a[i]=="e" || a[i]=='i' || a[i]=='o' || a[i]=="u")
+                {
+                    continue;
+                }
+                else
+                {
+                    document.write(a[i],"<br>"); 
+                }
+               
+              
+
+            }
+            
+
+        }string()
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./studentform.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 7</title>
+</head>
+
+<body>
+    <div class="body">
+        <a href="#">Student Registration Form</a>
+        <form action="">
+            <table>
+                <tr>
+                    <th>First Name</th>
+                    <td><input type="text" placeholder="Enter your first name" class="input7" id="firstname"><br>
+                        <span id="firstname1"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Last Name</th>
+                    <td><input type="text" placeholder="Enter your Last Name" class="input7" id="lastname"><br>
+                        <span id="lastname1"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Email </th>
+                    <td><input type="text" placeholder="It should contain @" class="input7" id="email"><br>
+                        <span id="email1" style="color: red;"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Mobile</th>
+                    <td><input type="tel" placeholder="Only 10 digits are allowed" class="input7" id="mobile"><br>
+                        <span id="mobile1" style="color: red;"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Gender</th>
+                    <td><input type="radio" class="input70" value="Male" name="gender" id="genderM">Male
+                        <input type="radio" class="input70" value="Female" name="gender" id="genderF">Female
+                        <span id="gender" style="color: red;"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Date Of Birth</th>
+                    <td><input type="date" class="input7" style="
+                        width: 353px;" id="date"><br>
+                        <span id="date1" style="color: red;"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Address</th>
+                    <td><input type="text" class="input7" id="adrs"><br>
+                        <span id="adrs1" style="color: red;"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <th>City</th>
+                    <td><input type="text" class="input7" id="city"><br>
+                        <span id="city1" style="color: red;"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Area PIN</th>
+                    <td><input type="number" class="input7" id="area"><br>
+                        <span id="area1" style="color: red;"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <th>State</th>
+                    <td><input type="text" class="input7" id="state"><br>
+                        <span id="state1" style="color: red;"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Qualification</th>
+                    <td><select id="Qualification" size="" class="input7" style="width: 364px;">
+                            <option value="BCA">BCA</option>
+                            <option value="BBA">BBA</option>
+                            <option value="BSc">Bsc</option>
+                            <option value="B.Tech">B.Tech</option>
+
+                        </select></td>
+                </tr>
+                <tr>
+                    <th>Specialization</th>
+                    <td><input type="checkbox" name="Specialization" value="Computer Science">Computer Science
+                        <input type="checkbox" name="Specialization" value="Information Technology" style="
+                        margin-left: 42px;
+                    ">Information Technology<br>
+                        <input type="checkbox" name="Specialization" value="Computer Architechture">Computer
+                        Architechture
+                        <input type="checkbox" name="Specialization" value="Tele Communication" style="
+                        margin-left: 5px;
+                    ">Tele Communication
+                    </td>
+                </tr>
+                <tr>
+                    <th>Password</th>
+                    <td><input type="password" class="input7" id="pass"><br>
+                        <span id="pass1" style="color: red;"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="button" value="Register" id="Register" onclick="register()"></td>
+                </tr>
+
+
+            </table>
+        </form>
+        <script src="./studentform2.js"></script>
+    </div>
+</body>
+
+</html>

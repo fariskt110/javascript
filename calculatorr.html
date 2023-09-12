@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="/calculator.css">
+</head>
+
+<body>
+    <div style="background-color: #818181; border: 1px solid rgb(246, 246, 246);width: 710px;margin-left: 308px;" class="model">
+    <table style="margin-left: 15px;">
+        <div  class="calculator">
+
+            <input id="screen" style="background-color: rgb(1, 218, 145); width: 640px; height: 80px; margin-left: 30px; margin-top: 10px;" type="num" style=" height: 68px;
+     width: 565px;">
+     
+            <tr  class="icon">
+                <td><input  type="button" value="C" class="but"  onclick="clearscreen()"> </td>
+                <td><input  type="button" value="B" class="but" onclick="back()"  > </td>
+                <td><input class="but"  type="button" value="/"  onclick="btnclick('/')"> </td>
+                <td><input class="but" type="button" value="*"   onclick="btnclick('*')"> </td>
+
+            </tr>
+            <tr  class="icon">
+                <td><input type="button" value="7" class="but"   onclick="btnclick(value)"> </td>
+                <td><input class="but"  type="button" value="8"  onclick="btnclick(8)"> </td>
+                <td><input class="but"  type="button" value="9"  onclick="btnclick(9)"> </td>
+                <td><input class="but" type="button" value="-"  onclick="btnclick('-')"> </td>
+            </tr>
+            <tr>
+                <td><input class="but"  type="button" value="4"  onclick="btnclick(4)"> </td>
+                <td><input class="but"  type="button" value="5"  onclick="btnclick(5)"> </td>
+                <td><input class="but"  type="button" value="6"  onclick="btnclick(6)"> </td>
+                <td><input class="but" type="button" value="+"  onclick="btnclick('+')"> </td>
+            </tr>
+            <tr>
+                <td><input class="but"  type="button" value="1"  onclick="btnclick(1)"> </td>
+                <td><input class="but"  type="button" value="2"  onclick="btnclick(2)"> </td>
+                <td><input class="but"  type="button" value="3"  onclick="btnclick(3)"> </td>
+                <td rowspan="2"><input id="but" type="button" value="=" onclick="findresult()"> </td>
+            </tr>
+            <tr>
+                <td colspan="2"> <input id="but1"  type="button" value="0"  onclick="btnclick(0)"> </td>    
+                <td><input class="but"  type="button" value="."  onclick="btnclick('.')"> </td>
+    
+            </tr>
+
+
+
+
+    </table>
+    </div>
+    </div>
+    <script src="./calculator.js"></script>
+</body>
+
+</html>

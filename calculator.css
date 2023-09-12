@@ -1,0 +1,39 @@
+
+   
+
+
+body{
+    
+    height: 100%;
+    background-color: rgb(14, 14, 14);
+
+}
+.button{
+    background-color: red;
+}
+.but{
+    background-color: red;
+    width: 134px;
+    height: 80px;
+    border: 0px;
+    margin-top: 20px;
+    margin-left: 25px;
+    
+}
+#but{
+    background-color: red;
+    width: 134px;
+    height: 186px;
+    border: 0px;
+    margin-top: 17px;
+    margin-left: 25px;
+}
+#but1{
+    background-color: red;
+    width: 296px;
+    height: 80px;
+    border: 0px;
+    margin-top: 20px;
+    margin-left: 25px;
+    
+}

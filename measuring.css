@@ -1,0 +1,22 @@
+.container{
+    width: 568px;
+    height:650px;
+    background-color: black;
+    margin: auto;
+}
+p{
+    color: white;
+    font-size: 50px;
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 100px;
+}
+.values{
+    margin-left: 130px;
+    margin-top: 140px;
+    
+    
+    font-size: 20px;
+
+}
+

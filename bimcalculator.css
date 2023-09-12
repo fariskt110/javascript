@@ -1,0 +1,14 @@
+.container{
+    width: 568px;
+    height: 650px;
+    background-color:black ;
+    margin :auto;
+    border-radius: 30px;
+
+}
+p{
+    color: white;
+    padding-left: 150px;
+    padding-top: 90px;
+    font-size: 40px;
+}

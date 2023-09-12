@@ -1,0 +1,67 @@
+.body {
+    box-shadow: 4px 4px 10px #7b7a7a;
+    border-radius: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    min-height: 682px;
+    width: 590px;
+    background-color: rgb(230 230 230);
+}
+
+a {
+    margin-right: 30px;
+    font-weight: 600;
+    font-family: cursive;
+    font-size: 19px;
+    color: #ba0404;
+    float: right;
+    margin-top: 8px;
+}
+
+table {
+    padding-bottom: 18px;
+    margin-left: 30px;
+    height: 640px;
+    padding-top: 12px;
+}
+
+.input7 {
+    border: 0px;
+    border-radius: 6px;
+    font-size: 17px;
+    padding-left: 8px;
+    padding-right: 5px;
+    width: 352px;
+    height: 35px;
+}
+
+.input70 {
+    height: 15px;
+    width: 15px;
+}
+
+th {
+    padding-right: 10px;
+    padding-top: 15px;
+    float: left;
+    font-family: cursive;
+}
+
+#Register {
+    height: 35px;
+    margin-left: 200px;
+    margin-top: 6px;
+    width: 89px;
+    border-radius: 7px;
+    border: 0px;
+    font-size: 14px;
+    font-family: cursive;
+    background-color: #f7f7f7;
+}
+
+span {
+    float: right;
+    font-family: sans-serif;
+    padding-right: 10px;
+    color: red;
+}

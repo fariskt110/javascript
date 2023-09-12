@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="/form1/form.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="./studentregistration.css">
+</head>
+
+<body>
+    <div class="body">
+        <form action="">
+            <table>
+                <tr>
+                    <th>First Name</th>
+                    <td><input type="text" class="input" id="fname" />
+                        <span id="fname1" style=" padding-right: 20px;
+                        float: right;
+                        font-family: system-ui;
+                        letter-spacing: 1px;
+                        font-weight: 600;
+                        color: rgb(197, 0, 0) ;
+                        font-size: 12px;"></span><br>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Last Name</th>
+                    <td><input type="text" class="input" id="lname"><br>
+                        <span id="lname1" style=" padding-right: 20px;
+                        float: right;
+                        font-family: system-ui;
+                        letter-spacing: 1px;
+                        font-weight: 600;
+                        color: rgb(197, 0, 0) ;
+                        font-size: 12px;"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Father Name</th>
+                    <td><input type="text" class="input" id="fathername"><br>
+                        <span id="fathername1" style=" padding-right: 20px;
+                        float: right;
+                        font-family: system-ui;
+                        letter-spacing: 1px;
+                        font-weight: 600;
+                        color: rgb(197, 0, 0) ;
+                        font-size: 12px;"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Date of birth</th>
+                    <td><input type="date" class="input" id="dob">
+                        <br> <span id="dob1" style=" padding-right: 20px;
+                        float: right;
+                        font-family: system-ui;
+                        letter-spacing: 1px;
+                        font-weight: 600;
+                        color: rgb(197, 0, 0) ;
+                        font-size: 12px;"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Telephone </th>
+                    <td><input type="tel" class="input" id="teli">
+                        <br> <span id="teli1" style=" padding-right: 20px;
+                        float: right;
+                        font-family: system-ui;
+                        letter-spacing: 1px;
+                        font-weight: 600;
+                        color: rgb(197, 0, 0) ;
+                        font-size: 12px;"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <th>High School Name</th>
+                    <td><input type="text" class="input" id="hschool">
+                        <br> <span id="hschool1" style=" padding-right: 20px;
+                        float: right;
+                        font-family: system-ui;
+                        letter-spacing: 1px;
+                        font-weight: 600;
+                        color: rgb(197, 0, 0) ;
+                        font-size: 12px;"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Permanent Address</th>
+                    <td><input type="text" class="input" id="address">
+                        <br> <span id="address1" style=" padding-right: 20px;
+                        float: right;
+                        font-family: system-ui;
+                        letter-spacing: 1px;
+                        font-weight: 600;
+                        color: rgb(197, 0, 0) ;
+                        font-size: 12px;"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Your Level</th>
+                    <td><select id="input" size="1">
+                            <option value="1st Year">1st Year</option>
+                            <option value="2nd Year">2nd Year</option>
+                            <option value="3rd Year">3rd Year</option>
+
+                    </td>
+                </tr>
+                <tr>
+                    <th>Email</th>
+                    <td><input type="email" class="input" id="email">
+                        <br> <span id="email1" style=" padding-right: 20px;
+                        float: right;
+                        font-family: system-ui;
+                        letter-spacing: 1px;
+                        font-weight: 600;
+                        color: rgb(197, 0, 0) ;
+                        font-size: 12px;"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Degree Program</th>
+                    <td><select id="input" size="1">
+                            <option value="BS in Pre-Med Physics">BS in Pre-Med Physics</option>
+                            <option value="BCA">BCA</option>
+                            <option value="BBA">BBA</option>
+                            <option value="BSc">BSc</option>
+
+
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="button" value="Register" id="button" onclick="validate()"></th>
+                </tr>
+
+            </table>
+        </form>
+    </div>
+    <script src="./studentregistration.js">
+
+    </script>
+</body>
+
+</html>
